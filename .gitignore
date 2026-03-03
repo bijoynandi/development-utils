@@ -2,7 +2,9 @@
 Sources/ble.sh/
 Sources/oh-my-zsh/
 Sources/*/
-JDBC-Drivers/*/
+
+# JDBC Drivers (large files)
+JDBC-Drivers/*.jar
 
 # Build artifacts
 Builds/
