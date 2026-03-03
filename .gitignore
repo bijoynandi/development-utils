@@ -1,0 +1,11 @@
+# Sources (external dependencies)
+Sources/ble.sh/
+Sources/oh-my-zsh/
+Sources/*/
+JDBC-Drivers/*/
+
+# Build artifacts
+Builds/
+*.o
+*.out
+a.out
