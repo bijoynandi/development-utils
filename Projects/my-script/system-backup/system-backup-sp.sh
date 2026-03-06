@@ -257,7 +257,7 @@ backup_home() {
     print_step "Starting home directory backup..."
 
     # Build rsync command
-    local rsync_cmd="rsync -avH"
+    local rsync_cmd="rsync -avH --delete"
 
     if [ "$DRY_RUN" = true ]; then
         rsync_cmd="$rsync_cmd --dry-run"
