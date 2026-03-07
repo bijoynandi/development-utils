@@ -34,6 +34,7 @@ sudo dnf remove -y \
 echo "Removing unused apps..."
 sudo dnf remove -y \
   dragon \
+  kwrite \
   krdc krdc-libs \
   krfb krfb-libs \
   neochat
